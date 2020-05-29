@@ -36,7 +36,7 @@
     font-family: 'Airbnb Cereal App Extra Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Airbnb Cereal App Extra Bold'), url('Lib/font/AirbnbCerealExtraBold.woff') format('woff');
+    src: local('Airbnb Cereal App Extra Bold'), url('Lib/font/AirbnbCerealExtraBold.ttf') format('truetype');
     }
     
     
