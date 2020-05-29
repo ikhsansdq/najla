@@ -1,0 +1,88 @@
+body {
+    background-color: #101010;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Airbnb Cereal App Extra Bold';
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 0 12px 0;
+    color: #ea7059;
+}
+
+h3 {
+    font-family: 'Airbnb Cereal App Bold';
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Airbnb Cereal App Book';
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+
+#main-content {
+    background-color: #101010;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+#blog {
+    align-items: center;
+    margin-top: 54px;
+    background-color: #0e0e0e;
+    border-radius: 16px;
+    text-align: center;
+    padding: 24px;
+}
+
+#blog img.rounded-corners {
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    margin: 8px 0 16px 0;
+    transition: 0.3s;
+}
+
+#blog img.rounded-corners:hover {
+    transition: 0.3s;
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    margin: 8px 0 16px 0;
+    color: #0e0e0e;
+    opacity: 25%;
+}
+
+.timestamp {
+    margin-bottom: 16px;
+}
+
+#blog p {
+    font-family: "Airbnb Cereal App Book";
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+#blog h3 {
+    margin: 16px 0 8px 0;
+    font-size: 16px;
+}
