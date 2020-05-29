@@ -8,6 +8,7 @@ body {
 
 h1 {
     font-family: 'Airbnb Cereal App Extra Bold';
+    src: local('Airbnb Cereal App Extra Bold'), url('Lib/font/AirbnbCerealExtraBold.woff') format('woff');
     font-weight: normal;
     letter-spacing: 2px;
     font-size: 48px;
@@ -18,6 +19,7 @@ h1 {
 
 h3 {
     font-family: 'Airbnb Cereal App Bold';
+    src: local('Airbnb Cereal App Bold'), url('Lib/font/AirbnbCerealBold.woff') format('woff');
     font-weight: normal;
     letter-spacing: 1.5px;
     text-align: center;
@@ -26,6 +28,7 @@ h3 {
 
 p {
     font-family: 'Airbnb Cereal App Book';
+    src: local('Airbnb Cereal App Book'), url('Lib/font/AirbnbCerealBook.woff') format('woff');
     font-weight: normal;
     letter-spacing: 0.2px;
     text-align: center;
@@ -78,6 +81,7 @@ p {
 
 #blog p {
     font-family: "Airbnb Cereal App Book";
+    src: local('Airbnb Cereal App Book'), url('Lib/font/AirbnbCerealBook.woff') format('woff');
     font-size: 14px;
     color: #dcdcdc;
 }
