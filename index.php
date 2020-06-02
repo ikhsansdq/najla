@@ -1,3 +1,14 @@
+<?php
+    if (isset($_POST['submit']) and $_POST != null) {
+        $to = "ikhsanir21@gmail.com";
+        $subject = "Cerita Najla" . date("Y/m/d");
+        $message = "Najla wrote the following:" . " " . $_POST['textArea'];
+
+        mail($to, $subject, $message);
+        echo "<script>console.log('Debug Objects: " . $message . "' );</script>";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,10 +28,11 @@
         <br>
 
         <div id="formArea">
-            <form action="" id="keluhkesahForm">
+            <form action="" id="keluhkesahForm" method="POST">
                 <label for="textarea">Ada Cerita apa hari ini?</label> 
                 <textarea name="textArea" id="isi" maxlength="300" autofocus onkeyup="count_down(this);"></textarea>  
                 <p><span id="chars">300</span> Characters Remaining</p> 
+                <input type="submit" name="submit" value="submit">
             </form>
         </div>
         

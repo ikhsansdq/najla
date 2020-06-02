@@ -49,6 +49,9 @@ body {
     background-color: #101010;
     width: 100%;
     height: 100%;
+
+    overflow: auto;
+    transition: 0.67s;
 }
 
 h1 {
@@ -91,20 +94,21 @@ p {
     left: 50%;
     margin-left: -150px;
     margin-top: -150px;
+    transition: 0.67s;
 }
 
 #blog {
     align-items: center;
-    margin-top: 54px;
+    margin-top: auto;
     margin-bottom: 32px;
     background-color: #0e0e0e;
-    border-radius: 16px;
+    border-radius: 6px;
     text-align: center;
     padding: 24px;
 }
 
 #blog img.rounded-corners {
-    border-radius: 12px;
+    border-radius: 6px;
     width: 250px;
     height: 250px;
     margin: 8px 0 16px 0;
@@ -119,6 +123,14 @@ p {
     margin: 8px 0 16px 0;
     color: #0e0e0e;
     opacity: 25%;
+}
+
+#kokbelumtidur {
+    border-radius: 6px;
+    margin-top: 32px;
+    background-color: #0e0e0e;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .timestamp {
@@ -147,4 +159,50 @@ p {
 #blog h3 {
     margin: 16px 0 8px 0;
     font-size: 16px;
+}
+
+#blog iframe {
+    margin-top: 16px;
+}
+
+#clock {
+    width: 320px;
+}
+
+#formArea {
+    background-color: #0e0e0e;
+    border-radius: 4px;
+    padding: 12px 18px 12px 18px;
+}
+
+#keluhkesahForm {
+
+}
+
+#keluhkesahForm label {
+    color: white;
+    text-align: center;
+    width: auto;
+    font-family: "Airbnb Cereal App Book";
+    display: block;
+    margin-bottom: 12px;
+}
+
+#keluhkesahForm textarea {
+    max-width: 240px;
+    border-radius: 4px;
+    background-color: #101010;
+    color: white;
+    padding: 12px;
+    font-family: "Airbnb Cereal App Book";
+    letter-spacing: 0.67px;
+    border-style: none;
+    min-width: 240px;
+    min-height: 50px;
+    overflow: hidden;
+}
+
+#keluhkesahForm p {
+    margin-top: 8px;
+    font-size: 12px;
 }
